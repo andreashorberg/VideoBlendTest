@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4C5160220207560071FEDE /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C515F220207560071FEDE /* UIImage+Color.swift */; };
+		BA4C516222024AB70071FEDE /* TintFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C516122024AB70071FEDE /* TintFilter.swift */; };
 		BAEFD1B42202009400A7A093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD1B32202009400A7A093 /* AppDelegate.swift */; };
 		BAEFD1B62202009400A7A093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD1B52202009400A7A093 /* ViewController.swift */; };
 		BAEFD1B92202009400A7A093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEFD1B72202009400A7A093 /* Main.storyboard */; };
 		BAEFD1BB2202009600A7A093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEFD1BA2202009600A7A093 /* Assets.xcassets */; };
 		BAEFD1BE2202009600A7A093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEFD1BC2202009600A7A093 /* LaunchScreen.storyboard */; };
 		BAEFD1C92202009600A7A093 /* VideoBlendTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD1C82202009600A7A093 /* VideoBlendTestTests.swift */; };
+		BAEFD1D7220204C600A7A093 /* UIImage+Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFD1D6220204C600A7A093 /* UIImage+Tint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4C515F220207560071FEDE /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		BA4C516122024AB70071FEDE /* TintFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintFilter.swift; sourceTree = "<group>"; };
 		BAEFD1B02202009400A7A093 /* VideoBlendTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBlendTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEFD1B32202009400A7A093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAEFD1B52202009400A7A093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		BAEFD1C42202009600A7A093 /* VideoBlendTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBlendTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEFD1C82202009600A7A093 /* VideoBlendTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoBlendTestTests.swift; sourceTree = "<group>"; };
 		BAEFD1CA2202009600A7A093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEFD1D6220204C600A7A093 /* UIImage+Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Tint.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				BAEFD1BA2202009600A7A093 /* Assets.xcassets */,
 				BAEFD1BC2202009600A7A093 /* LaunchScreen.storyboard */,
 				BAEFD1BF2202009600A7A093 /* Info.plist */,
+				BAEFD1D6220204C600A7A093 /* UIImage+Tint.swift */,
+				BA4C515F220207560071FEDE /* UIImage+Color.swift */,
+				BA4C516122024AB70071FEDE /* TintFilter.swift */,
 			);
 			path = VideoBlendTest;
 			sourceTree = "<group>";
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEFD1B62202009400A7A093 /* ViewController.swift in Sources */,
+				BA4C516222024AB70071FEDE /* TintFilter.swift in Sources */,
+				BA4C5160220207560071FEDE /* UIImage+Color.swift in Sources */,
+				BAEFD1D7220204C600A7A093 /* UIImage+Tint.swift in Sources */,
 				BAEFD1B42202009400A7A093 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
